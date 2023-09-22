@@ -37,7 +37,7 @@ typedef struct jos_s
         FILE *file;
         char *content;
         int lifi;
-}  jos_t;
+} jos_t;
 extern jos_t jos;
 /**
  * struct instruction_s - opcode and its function
@@ -57,4 +57,5 @@ void pall_fun(stack_t **top, unsigned int count);
 void addqueue(stack_t **top, int n);
 void addnode(stack_t **top, int n);
 void free_stack(stack_t *top);
+int execute(char *content, stack_t **stack, FILE *file, unsigned int count);
 #endif /*MONTY_H*/

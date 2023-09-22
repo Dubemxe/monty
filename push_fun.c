@@ -2,12 +2,13 @@
 /**
  * push_fun - adds a new element to the stack
  * @top: a pointer to the top of the stack
- * @count: the number of element
+ * @count: list_number
  * Return: Nothing!
  */
 void push_fun(stack_t **top, unsigned int count)
 {
-	int n, i = 0, flag = 0;
+	int n;
+       	int i = 0, flag = 0;
 
 	if (jos.arg)
 	{
