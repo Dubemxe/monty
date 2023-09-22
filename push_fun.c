@@ -1,4 +1,5 @@
 #include "monty.h"
+jos_t jos;
 /**
  * push_fun - adds a new element to the stack
  * @top: a pointer to the top of the stack
