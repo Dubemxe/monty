@@ -6,7 +6,7 @@
  *
  * Return: NOthing!
  */
-void nop_fun(stack **top, unsigned int count)
+void nop_fun(stack_t **top, unsigned int count)
 {
 	(void) count;
 	(void) *top;

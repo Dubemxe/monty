@@ -62,5 +62,5 @@ void pint_fun(stack_t **top, unsigned int count);
 void pop_fun(stack_t **top, unsigned int count);
 void swap_fun(stack_t **top, unsigned int count);
 void add_fun(stack_t **top, unsigned int count);
-void nop_fun(stack **top, unsigned int count);
+void nop_fun(stack_t **top, unsigned int count);
 #endif /*MONTY_H*/
