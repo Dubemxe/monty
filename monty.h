@@ -60,4 +60,7 @@ void free_stack(stack_t *top);
 int execute(char *content, stack_t **stack, unsigned int count, FILE *file);
 void pint_fun(stack_t **top, unsigned int count);
 void pop_fun(stack_t **top, unsigned int count);
+void swap_fun(stack_t **top, unsigned int count);
+void add_fun(stack_t **top, unsigned int count);
+void nop_fun(stack **top, unsigned int count);
 #endif /*MONTY_H*/
