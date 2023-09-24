@@ -7,7 +7,7 @@
 * @count: line counter
 * Return: Nothing
 */
-int execute(char *content, stack_t **stack, FILE *file, unsigned int count)
+int execute(char *content, stack_t **stack, unsigned int count, FILE *file)
 {
 	instruction_t opst[] = {
 			{"push", push_fun}, {"pall", pall_fun},

@@ -57,5 +57,6 @@ void pall_fun(stack_t **top, unsigned int count);
 void addqueue(stack_t **top, int n);
 void addnode(stack_t **top, int n);
 void free_stack(stack_t *top);
-int execute(char *content, stack_t **stack, FILE *file, unsigned int count);
+int execute(char *content, stack_t **stack, unsigned int count, FILE *file);
+void pint_fun(stack_t **top, unsigned int count);
 #endif /*MONTY_H*/
