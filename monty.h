@@ -71,4 +71,6 @@ void pchar_fun(stack_t **top, unsigned int count);
 void pstr_fun(stack_t **top, unsigned int count);
 void rotl_fun(stack_t **top, __attribute__((unused)) unsigned int count);
 void rotr_fun(stack_t **top, __attribute__((unused)) unsigned int count);
+void stack_fun(stack_t **top, unsigned int count);
+void queue_fun(stack_t **top, unsigned int count);
 #endif /*MONTY_H*/

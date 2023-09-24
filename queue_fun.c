@@ -1,4 +1,17 @@
 #include "monty.h"
+
+/**
+ * queue_fun - sets the format of the data to a queue (FIFO)
+ * @top: a pointer to the head of the stack
+ * @count: line number
+ * Return: Nothing!
+ */
+void queue_fun(stack_t **top, unsigned int count)
+{
+	(void)top;
+	(void)count;
+	jos.lifi = 1;
+}
 /**
  * addqueue - add node to the tail stack
  * @n: new_value
