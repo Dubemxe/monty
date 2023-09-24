@@ -13,7 +13,8 @@ int execute(char *content, stack_t **stack, unsigned int count, FILE *file)
 			{"push", push_fun}, {"pall", pall_fun},
 			{"pint", pint_fun}, {"pop", pop_fun},
 			{"swap", swap_fun}, {"add", add_fun},
-			{"nop", nop_fun},
+			{"nop", nop_fun}, {"sub", sub_fun},
+			{"div", div_fun}, {"mul", mul_fun},
 	};
 
 	unsigned int i = 0;

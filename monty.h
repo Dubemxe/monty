@@ -63,4 +63,7 @@ void pop_fun(stack_t **top, unsigned int count);
 void swap_fun(stack_t **top, unsigned int count);
 void add_fun(stack_t **top, unsigned int count);
 void nop_fun(stack_t **top, unsigned int count);
+void sub_fun(stack_t **top, unsigned int count);
+void div_fun(stack_t **top, unsigned int count);
+void mul_fun(stack_t **top, unsigned int count);
 #endif /*MONTY_H*/
