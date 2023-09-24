@@ -68,4 +68,5 @@ void div_fun(stack_t **top, unsigned int count);
 void mul_fun(stack_t **top, unsigned int count);
 void mod_fun(stack_t **top, unsigned int count);
 void pchar_fun(stack_t **top, unsigned int count);
+void pstr_fun(stack_t **top, unsigned int count);
 #endif /*MONTY_H*/
